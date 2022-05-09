@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vegas Tosser</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header-bar">
+            <button class="btn show-rules">Rules</button>
+            <div class="rank">
+                <p id="current-rank">rank</p>
+            </div>
+        </header>
+        <section class="message-bar">
+            <h3 class="message">Some text...</h2>
+        </section>
+        <section class="main-container">
+            <div class="left-column">
+                <h2>Bankroll: <span id="bankroll">100</span> $</h2>
+                <h2>Bet: <span id="bet">0</span> $</h2>
+                <h2>Prize: <span id="prize">0</span></h2>
+                <hr>
+                <h2>Trials: <span id="trials">0</span></h2>
+            </div>
+            <div class="right-column">
+                <button class="btn again hidden">Again</button>
+                <img src="/assets/avers.png" alt="avers.png" class="coin-image">
+                <div class="choice-buttons">
+                    <button class="btn btn-revers">Revers</button>
+                    <button class="btn btn-avers">Avers</button>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <button class="btn btn-increase">Increase</button>
+            <button class="btn btn-decrease">Decrease</button>
+            <button class="btn-toss">Toss</button>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
