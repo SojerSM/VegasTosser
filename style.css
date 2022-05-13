@@ -20,7 +20,7 @@ html {
 
 body {
     position: relative;
-    background-image: url(/assets/casino-background.jpg);
+    background-image: url(assets/casino-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
