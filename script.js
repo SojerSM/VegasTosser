@@ -23,9 +23,9 @@ const modal = document.querySelector('.modal');
 
 let isPlaying, bet, bankroll, trials, choice;
 let coinImgPaths = [
-    '/assets/reverse.png',
-    '/assets/obverse.png',
-    '/assets/unknown.png',
+    'assets/reverse.png',
+    'assets/obverse.png',
+    'assets/unknown.png',
 ];
 
 // Starting conditions
